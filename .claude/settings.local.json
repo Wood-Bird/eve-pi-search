@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(chcp 65001)",
+      "WebSearch",
+      "Bash(ls data_*.json)",
+      "Bash(node -e \"const d=require\\('./index.json'\\); console.log\\(Object.keys\\(d\\)\\); console.log\\('systems count:', d.systems?.length\\); console.log\\('materials count:', d.materials?.length\\); console.log\\('regions count:', d.regions?.length\\); console.log\\('first 3 systems:', d.systems?.slice\\(0,3\\)\\); console.log\\('constellation_region_map sample:', Object.entries\\(d.constellation_region_map\\).slice\\(0,3\\)\\); console.log\\('system_constellation_map sample:', Object.entries\\(d.system_constellation_map\\).slice\\(0,3\\)\\); console.log\\('system_planets sample:', Object.entries\\(d.system_planets\\).slice\\(0,2\\)\\);\")"
+    ]
+  }
+}
